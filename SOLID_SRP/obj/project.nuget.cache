@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6x1qvNc7Zdavmzr5PJnMce5Cu53jFVOjgkVy5wCvK7tNVmVfJz5VAsq1NKEfJFqZvtX1UjcTRyCoP0fY3FPrCA==",
+  "success": true,
+  "projectFilePath": "D:\\Elearning\\DotNetCore\\BabakTaremi\\Session1\\SOLID_Samples\\SOLID_SRP\\SOLID_SRP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samaneh\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

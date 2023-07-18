@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lZyp4VUtF4thtWxNfm6w0JLdJckuWrsMTve92fJkx8i7Rr9INlB4yymIW1Y2He9E9L+xdhL2mowjF9vA5XL0dA==",
+  "success": true,
+  "projectFilePath": "D:\\Elearning\\DotNetCore\\BabakTaremi\\Session1\\SOLID_Samples\\SOLID_DIP\\SOLID_DIP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samaneh\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
