@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ohxfEDP37WhdBGg6qVba9KA6hxQuNLRwtJw5mixOfSGT/QUYWp4o8iyapbhgbuJ6aH6/mXx0MWyrDF3HyE/X0w==",
+  "success": true,
+  "projectFilePath": "D:\\Elearning\\DotNetCore\\BabakTaremi\\Session1\\SOLID_Samples\\SOLID_WithOutSOLID_V2\\SOLID_WithOutSOLID_V2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samaneh\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_Entities\bin\Debug\net7.0\SOLID_Entities.exe
+D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_Entities\bin\Debug\net7.0\SOLID_Entities.deps.json
+D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_Entities\bin\Debug\net7.0\SOLID_Entities.runtimeconfig.json
+D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_Entities\bin\Debug\net7.0\SOLID_Entities.dll
+D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_Entities\bin\Debug\net7.0\SOLID_Entities.pdb
+D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_Entities\obj\Debug\net7.0\SOLID_Entities.csproj.AssemblyReference.cache
+D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_Entities\obj\Debug\net7.0\SOLID_Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_Entities\obj\Debug\net7.0\SOLID_Entities.AssemblyInfoInputs.cache
+D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_Entities\obj\Debug\net7.0\SOLID_Entities.AssemblyInfo.cs
+D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_Entities\obj\Debug\net7.0\SOLID_Entities.csproj.CoreCompileInputs.cache
+D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_Entities\obj\Debug\net7.0\SOLID_Entities.dll
+D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_Entities\obj\Debug\net7.0\refint\SOLID_Entities.dll
+D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_Entities\obj\Debug\net7.0\SOLID_Entities.pdb
+D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_Entities\obj\Debug\net7.0\SOLID_Entities.genruntimeconfig.cache
+D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_Entities\obj\Debug\net7.0\ref\SOLID_Entities.dll
