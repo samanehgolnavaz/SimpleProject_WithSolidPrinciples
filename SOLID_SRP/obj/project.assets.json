@@ -24,6 +24,20 @@
         "runtime": {
           "bin/placeholder/SOLID_Entities.dll": {}
         }
+      },
+      "SOLID_OCP/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "SOLID_Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SOLID_OCP.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SOLID_OCP.dll": {}
+        }
       }
     }
   },
@@ -62,12 +76,18 @@
       "type": "project",
       "path": "../SOLID_Entities/SOLID_Entities.csproj",
       "msbuildProject": "../SOLID_Entities/SOLID_Entities.csproj"
+    },
+    "SOLID_OCP/1.0.0": {
+      "type": "project",
+      "path": "../SOLID_OCP/SOLID_OCP.csproj",
+      "msbuildProject": "../SOLID_OCP/SOLID_OCP.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "Newtonsoft.Json >= 13.0.3",
-      "SOLID_Entities >= 1.0.0"
+      "SOLID_Entities >= 1.0.0",
+      "SOLID_OCP >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -103,6 +123,9 @@
           "projectReferences": {
             "D:\\Elearning\\DotNetCore\\BabakTaremi\\Session1\\SOLID_Samples\\SOLID_Entities\\SOLID_Entities.csproj": {
               "projectPath": "D:\\Elearning\\DotNetCore\\BabakTaremi\\Session1\\SOLID_Samples\\SOLID_Entities\\SOLID_Entities.csproj"
+            },
+            "D:\\Elearning\\DotNetCore\\BabakTaremi\\Session1\\SOLID_Samples\\SOLID_OCP\\SOLID_OCP.csproj": {
+              "projectPath": "D:\\Elearning\\DotNetCore\\BabakTaremi\\Session1\\SOLID_Samples\\SOLID_OCP\\SOLID_OCP.csproj"
             }
           }
         }

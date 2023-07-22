@@ -1,10 +1,12 @@
 ﻿using SOLID_Entities;
-using SOLID_OCP;
 using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace SOLID_SRP
+namespace SOLID_OCP
 {
     public class InputParser
     {
@@ -16,20 +18,19 @@ namespace SOLID_SRP
             foreach (var item in personRead)
             {
                 string[] personData = item.Split(',');
-                Pesron person = new Pesron()
+                Pesron student = new Pesron()
                 {
                     Id = int.Parse(personData[0]),
                     Name = personData[1],
                     Family = personData[2],
                     BirthDate = DateTime.Parse(personData[3])
                 };
-                people.Add(person);
+                people.Add(student);
             }
 
             return people;
         }
     }
-
     public class XmlInputParser : InputParser
     {
         public override List<Pesron> ParseInput(string input)
@@ -60,4 +61,5 @@ namespace SOLID_SRP
             }
         }
     }
+
 }

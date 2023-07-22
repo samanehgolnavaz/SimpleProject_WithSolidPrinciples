@@ -20,3 +20,8 @@ D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_SRP\obj\Debug\n
 D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_SRP\obj\Debug\net7.0\SOLID_SRP.pdb
 D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_SRP\obj\Debug\net7.0\SOLID_SRP.genruntimeconfig.cache
 D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_SRP\obj\Debug\net7.0\ref\SOLID_SRP.dll
+D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_SRP\bin\Debug\net7.0\SOLID_OCP.deps.json
+D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_SRP\bin\Debug\net7.0\SOLID_OCP.runtimeconfig.json
+D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_SRP\bin\Debug\net7.0\SOLID_OCP.exe
+D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_SRP\bin\Debug\net7.0\SOLID_OCP.dll
+D:\Elearning\DotNetCore\BabakTaremi\Session1\SOLID_Samples\SOLID_SRP\bin\Debug\net7.0\SOLID_OCP.pdb

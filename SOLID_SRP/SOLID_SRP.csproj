@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SOLID_Entities\SOLID_Entities.csproj" />
+    <ProjectReference Include="..\SOLID_OCP\SOLID_OCP.csproj" />
   </ItemGroup>
 
 </Project>

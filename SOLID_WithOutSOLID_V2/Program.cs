@@ -48,6 +48,12 @@ namespace SOLID_WithOutSOLID_V2
             return input;
         }
 
+        
+        private static string SerializedPeople(List<Pesron> people)
+        {
+            return JsonConvert
+                .SerializeObject(people);
+        }
         private static void PersistPeople(Object serializedPeople , string targetFileName)
         {
             using (FileStream stream = File.Open(targetFileName, FileMode.Create, FileAccess.Write))
@@ -58,10 +64,5 @@ namespace SOLID_WithOutSOLID_V2
             }
         }
 
-        private static string SerializedPeople(List<Pesron> people)
-        {
-            return JsonConvert
-                .SerializeObject(people);
-        }
     }
 }
