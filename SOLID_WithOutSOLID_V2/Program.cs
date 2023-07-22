@@ -1,6 +1,4 @@
-﻿using System;
-using System.Globalization;
-using System.Runtime.Serialization;
+﻿using System.Globalization;
 using Newtonsoft.Json;
 using SOLID_Entities;
 namespace SOLID_WithOutSOLID_V2
@@ -13,18 +11,18 @@ namespace SOLID_WithOutSOLID_V2
             var targetFileName = Path.Combine(Environment.CurrentDirectory, @"OutputDocs\Person.json");
             var input = GetInput(sourceFileName);
             var people= GetPeople(input);
-            var serializedPeople = Program.serializedPeople(people);
+            var serializedPeople = Program.SerializedPeople(people);
             PersistPeople(serializedPeople,targetFileName);
         }
 
-        private static List<SOLID_Entities.Pesron> GetPeople(string input)
+        private static List<Pesron> GetPeople(string input)
         {
             string[] personRead = input.Split('\n');
-            List<SOLID_Entities.Pesron> people = new List<SOLID_Entities.Pesron>();
+            List<Pesron> people = new List<Pesron>();
             foreach (var item in personRead)
             {
                 string[] personData = input.Split(',');
-                SOLID_Entities.Pesron person = new SOLID_Entities.Pesron()
+                Pesron person = new Pesron()
                 {
                     Id = Convert.ToInt32(personData[0]),
                     Name = personData[1],
@@ -60,7 +58,7 @@ namespace SOLID_WithOutSOLID_V2
             }
         }
 
-        private static string serializedPeople(List<SOLID_Entities.Pesron> people)
+        private static string SerializedPeople(List<Pesron> people)
         {
             return JsonConvert
                 .SerializeObject(people);

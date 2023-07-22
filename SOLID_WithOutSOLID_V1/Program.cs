@@ -1,8 +1,4 @@
 ﻿using SOLID_Entities;
-using System;
-using System.IO;
-using System.Collections.Generic;
-using Microsoft.VisualBasic;
 using Newtonsoft.Json;
 using System.Globalization;
 
@@ -23,11 +19,11 @@ namespace SOLID_WithOutSOLID_V1
             }
 
             string[] personRead = input.Split('\n');
-            List<SOLID_Entities.Pesron> people = new List<SOLID_Entities.Pesron>();
+            List<Pesron> people = new List<Pesron>();
             foreach (var item in personRead)
             {
                 string[] personData = input.Split(',');
-                SOLID_Entities.Pesron person = new SOLID_Entities.Pesron()
+                Pesron person = new Pesron()
                 {
                     Id = Convert.ToInt32(personData[0]),
                     Name = personData[1],

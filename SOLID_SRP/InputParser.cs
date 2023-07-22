@@ -1,24 +1,18 @@
 ﻿using SOLID_Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SOLID_Entities;
 
 namespace SOLID_SRP
 {
     public class InputParser
     {
-        public List<SOLID_Entities.Pesron> ParseInput(string input)
+        public List<Pesron> ParseInput(string input)
         {
             string[] personRead = input.Split('\n');
-            List<SOLID_Entities.Pesron> people = new List<SOLID_Entities.Pesron>();
+            List<Pesron> people = new List<Pesron>();
 
             foreach (var item in personRead)
             {
                 string[] personData = item.Split(',');
-                SOLID_Entities.Pesron person = new SOLID_Entities.Pesron()
+                Pesron person = new Pesron()
                 {
                     Id = int.Parse(personData[0]),
                     Name = personData[1],

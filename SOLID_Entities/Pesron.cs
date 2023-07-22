@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace SOLID_Entities
+﻿namespace SOLID_Entities
 {
     public class Pesron
     {
